@@ -8,6 +8,13 @@ alias ri='ri -Tf ansi'
 
 alias venv='~/venv/bin/activate'
 
+alias diskspace="du -S | sort -n -r |more"                                             
+                                                                                               
+alias ..="cd .."                                                                              
+alias ...="cd ../.."                                                                          
+alias ....="cd ../../.."                                                                      
+alias .....="cd ../../../.."
+
 #alias mysql='mysql -u root'
 #alias mysqladmin='mysqladmin -u root'
 
