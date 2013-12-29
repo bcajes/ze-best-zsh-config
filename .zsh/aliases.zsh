@@ -6,7 +6,7 @@ alias ll='ls -GFhltr'
 
 alias ri='ri -Tf ansi'
 
-alias venv='~/venv/bin/activate'
+alias venv='source ~/venv/bin/activate'
 
 alias diskspace="du -S | sort -n -r |more"                                             
                                                                                                
