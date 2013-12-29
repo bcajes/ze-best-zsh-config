@@ -25,12 +25,5 @@ export EDITOR='/usr/bin/emacs'
 # CTAGS Sorting in VIM/Emacs is better behaved with this in place
 export LC_COLLATE=C
 
-#HISTORY
-export HISTSIZE=1000000
-export HISTFILESIZE=1000000000
-# Combine multiline commands into one in history
-shopt -s cmdhist
-# Ignore duplicates, ls without options and builtin commands
-HISTCONTROL=ignoredups
-export HISTIGNORE="&:ls:[bf]g:exit"
+
 
