@@ -2,19 +2,21 @@
 alias ls='ls -GFh'
 
 # Same as above, but in long listing format
-alias ll='ls -GFhl'
+alias ll='ls -GFhltr'
 
 alias ri='ri -Tf ansi'
 
-alias mysql='mysql -u root'
-alias mysqladmin='mysqladmin -u root'
+alias venv='~/venv/bin/activate'
 
-alias be='bundle exec'
-alias bx='bundle exec'
+#alias mysql='mysql -u root'
+#alias mysqladmin='mysqladmin -u root'
 
-alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+#alias be='bundle exec'
+#alias bx='bundle exec'
 
-alias gentags='ctags . && rm .tags;ln -s tags .tags'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias rake='noglob rake'
-alias bower='noglob bower'
+#alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+
+#alias gentags='ctags . && rm .tags;ln -s tags .tags'
+#alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+#alias rake='noglob rake'
+#alias bower='noglob bower'
